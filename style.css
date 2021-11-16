@@ -21,6 +21,8 @@ header {
     align-items: center;
     border-bottom: 2px solid #0D98BA;
     overflow: hidden;
+    background-color: #03BB85;
+    background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366)
 }
 
 #container {
@@ -93,8 +95,8 @@ nav a:hover {
 
 #principal img {
     padding-top: 3%;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     transition: all 0.4s;
 }
 
@@ -113,10 +115,22 @@ nav a:hover {
 }
 
 #sobre {
-    padding: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
     color: cadetblue;
     font-size: 25px;
-    text-shadow: 3px 10px 4px black;
+    text-shadow: 5px 5px 10px black;
+}
+
+#trailer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#trailer h2 {
+    text-align: center;
 }
 
 #me-img {
@@ -134,7 +148,7 @@ nav a:hover {
     padding: 10%;
     color: white;
     font-size: 25px;
-    text-shadow: 3px 4px 4px black;
+    text-shadow: 7px 7px 5px black;
 }
 
 footer {
@@ -145,4 +159,6 @@ footer {
     justify-content: center;
     align-items: center;
     border-top: 2px solid #0D98BA;
+    background-color: #03BB85;
+    background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366);
 }
