@@ -22,7 +22,7 @@ header {
     border-bottom: 2px solid #0D98BA;
     overflow: hidden;
     background-color: #03BB85;
-    background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366)
+    background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366);
 }
 
 #container {
@@ -57,4 +57,5 @@ footer {
     border-top: 2px solid #0D98BA;
     background-color: #03BB85;
     background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366);
+    margin: 0;
 }

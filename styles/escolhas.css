@@ -4,16 +4,16 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
     box-shadow: 3px 5px 9px black ;
+    border-bottom: 100% #03BB85;
 }
 
 main h1 {
     text-align: center;
     color: white;
     text-shadow: 0px 0px 4px black;
-    padding-top: 5%;
+    margin: 0;
 }
 
 #escolha {
@@ -42,13 +42,47 @@ main h1 {
     transform: scale(1.1);
 }
 
-#heimer {
-    text-align: left;
+#botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#botao button{
+    font-size: 20px;
+    text-shadow: 0px 0px 3px white;
+    width: 400px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #003366;
+    background-image: linear-gradient(to right, transparent, #03BB85),linear-gradient(to left, transparent, #03BB85);
+    transition: all 0.2s;
+}
+
+#botao button:hover {
+    background-color: #03BB85;
+}
+
+#botao button:active {
+    transform: scale(0.9);
+}
+
+#sobre-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #0D98BA;
+    border-top: 2px solid #0D98BA;
+    overflow: hidden;
+    background-color: #03BB85;
+    background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366);
+    padding: 0;
+    margin: 0;
+}
+
+#sobre {
     color: white;
-    font-size: 25px;
-    padding-top: 10%;
-    padding-left: 3%;
-    text-shadow: 0px 0px 7px black;
 }
 
 #h-img {
@@ -56,12 +90,11 @@ main h1 {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
-    margin-top: 1%;
     margin-bottom: 1%;
     box-shadow: 3px 5px 9px black ;
 }
 
-#jayce {
+#heimer {
     text-align: left;
     color: white;
     font-size: 25px;
@@ -80,7 +113,7 @@ main h1 {
     box-shadow: 3px 5px 9px black ;
 }
 
-#viktor {
+#jayce {
     text-align: left;
     color: white;
     font-size: 25px;
@@ -95,6 +128,14 @@ main h1 {
     background-size: 100%;
     height: 100%;
     margin-top: 1%;
-    margin-bottom: 1%;
     box-shadow: 3px 5px 9px black ;
+}
+
+#viktor {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    padding-top: 10%;
+    padding-left: 3%;
+    text-shadow: 0px 0px 7px black;
 }
