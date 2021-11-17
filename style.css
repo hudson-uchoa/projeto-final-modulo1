@@ -85,7 +85,7 @@ nav a:hover {
     color:#0D98BA;
     padding-top: 40px;
     overflow: hidden;
-    text-shadow: 0px 3px 7px black;
+    text-shadow: 0px 0px 2px black;
     font-weight: bold;
 }
 
@@ -93,14 +93,14 @@ nav a:hover {
     font-size: 25px;
 }
 
-#principal img {
+.jogar {
     padding-top: 3%;
     width: 10%;
     height: 10%;
     transition: all 0.4s;
 }
 
-#principal img:hover{
+.jogar:hover{
     transform: scale(0.5)
 }
 
@@ -111,7 +111,7 @@ nav a:hover {
     height: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
-    box-shadow: 10px 4px 7px black ;
+    box-shadow: 3px 5px 9px black ;
 }
 
 #sobre {
@@ -148,10 +148,11 @@ nav a:hover {
     padding: 10%;
     color: white;
     font-size: 25px;
-    text-shadow: 7px 7px 5px black;
+    text-shadow: 0px 0px 6px black;
 }
 
 footer {
+    color: white;
     text-align: center;
     height: 10%;
     width: 100%;

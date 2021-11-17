@@ -1,0 +1,60 @@
+main {
+    height: 100%;
+    background-image: url(../imgs/arcane-league-legends-piltover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 3px 5px 9px black ;
+}
+
+main h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+#escolha {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+.personas {
+    width: 100%;
+    height: 100%;
+}
+
+.perso-img {
+    width: 80%;
+    height: 90%;
+    transition: all 0.3s;
+    border-radius: 40px;
+}
+
+.perso-img:hover {
+    transform: scale(1.1);
+}
+
+#heimer {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    padding-top: 10%;
+    padding-left: 3%;
+    text-shadow: 0px 0px 7px black;
+}
+
+#h-img {
+    background-image: url(../imgs/h-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 3px 5px 9px black ;
+}

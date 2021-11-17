@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body,html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #0D98BA;
+    overflow: hidden;
+    background-color: #03BB85;
+    background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366)
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#img img {
+    padding-top: 26%;
+    width: 43px;
+    height: 60px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #0D98BA;
+    background-color: #03BB85;
+    background-image: linear-gradient(to right, transparent, #003366),linear-gradient(to left, transparent, #003366);
+}
