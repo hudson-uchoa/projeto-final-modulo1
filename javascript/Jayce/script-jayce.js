@@ -9,7 +9,7 @@ function jogar (escolha1){
             window.location.href = '../../htmls/Jayce/escolha1-jayce.html'
             break
         }else if(escolha1 === 'nao' || escolha1 === 'Nao' || escolha1 === 'Não' || escolha1 === 'Não' || escolha1 === 'n' || escolha1 === 'N' ){
-            alert('Você então decide ouvir, mas logo quando coloca seu ouvido na porta... ')
+            alert('Você então decide ouvir, mas logo quando coloca seu ouvido na porta...\n Você ouve vozes que parecem ser de crianças, e também vê a silhuetas delas, então você tenta arrombar a porta... ')
             window.location.href = '../../htmls/Jayce/escolha1-jayce.html'
             break
         }else{

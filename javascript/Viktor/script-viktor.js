@@ -21,7 +21,7 @@ function escolherSimouNao (escolha2){
 
     while(escolha2 !== 'sim' || escolha2 !== 'Sim' || escolha2 !== 's' || escolha2 !== 'S' || escolha2 !== 'nao' || escolha2 !== 'Nao' || escolha2 !== 'Não'|| escolha2 !== 'n' || escolha2 !== 'N' ){
 
-        escolha2 = prompt('Viktor deve ou não levar esse livro e quem sabe, estudar o que há nele?\n\n1.Sim, ele deve "pegar emprestado". por um tempo\n2.Não, ele deve seguir a vida normal.')
+        escolha2 = prompt('Viktor deve ou não levar esse livro e quem sabe, estudar o que há nele?\n\n1.Sim, ele deve "pegar emprestado" por um tempo.\n2.Não, ele deve seguir a vida normal.')
 
         if(escolha2 === 'sim' || escolha2 === 'Sim' || escolha2 === 's' || escolha2 === 'S'){
             window.location.href = '../../htmls/Viktor/escolha2-viktor.html'
@@ -38,7 +38,7 @@ function escolherSimouNao (escolha2){
 function escolherSimouNao2 (escolha3){
 
     while(escolha3 !== 'sim' || escolha3 !== 'Sim' || escolha3 !== 's' || escolha3 !== 'S' || escolha3 !== 'nao'|| escolha3 !== 'Nao' || escolha3 !== 'Não' || escolha3 !== 'n' || escolha3 !== 'N' ){
-        escolha3 = prompt('Viktor precisa de Jayce para concluir seu projeto ambicioso, mas acredita que ele deve prosseguir e contatar o aluno expulso pelo conselho?\n\n1.Sim, só assim ele pode realizar o projeto.\n2.Não, ele não deve se meter nessa historia.')
+        escolha3 = prompt('Viktor precisa de Jayce para concluir seu projeto ambicioso, mas acredita que ele deve prosseguir e contatar o aluno expulso pelo conselho?\n\n1.Sim, só assim ele pode realizar o projeto.\n2.Não, el não deve se meter nessa historia e deve devolver esse livro.')
 
         if(escolha3 === 'sim' || escolha3 === 'Sim' || escolha3 === 's' || escolha3 === 'S'){
             window.location.href = '../../htmls/Viktor/escolha3-viktor.html'
