@@ -1,0 +1,40 @@
+@media (max-width: 1400px){
+    html, body{
+        width: 100%;
+        height: fit-content;
+        background-color: black;
+    }
+
+    #principal{
+        font-size: 5px;
+        padding-bottom: 5%;
+    }
+
+    #principal button{
+        width: 200px;
+        height: 50px;
+    }
+
+    ul li {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 500px){
+    html, body{
+        width: 100%;
+        height: fit-content;
+        background-color: black;
+    }
+
+    ul li {
+        font-size: 17px;
+    }
+
+    #principal{
+        font-size: 10px;
+    }
+
+
+}
