@@ -55,7 +55,8 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
