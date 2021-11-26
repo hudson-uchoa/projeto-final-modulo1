@@ -75,7 +75,7 @@ function escolherSimouNao3 (escolha4){
 }
 
 function fimdeJogo (fim){
-    fim = window.location.href = '../../htmls/Jayce/fim-Jayce.html'
+    fim = window.location.href = '../../htmls/Jayce/fim-jayce.html'
 }
 
 function jogarNovamente(replay){
